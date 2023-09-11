@@ -2,8 +2,6 @@
 __pycache__/
 *.py[cod]
 *$py.class
-Saves/
-Data/
 
 # C extensions
 *.so
@@ -129,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# PyCharm
+.idea
+
+# PyTorch weights
+*.tar
+*.pth
+*.gz
